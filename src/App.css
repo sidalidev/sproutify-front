@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -38,5 +40,33 @@
 }
 
 .read-the-docs {
+  color: #888;
+}
+
+.musics-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.music {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.music .title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.music .authors {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 0;
   color: #888;
 }
